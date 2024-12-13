@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:3001/api'; // Replace with your backend URL
+const API_BASE_URL = 'https://school-management-app-backend.onrender.com'; // Replace with your backend URL
 
 export const getClasses = (page = 1, limit = 10, filter = '', sortBy = '') => {
   const params = new URLSearchParams({ page, limit, filter, sortBy });
